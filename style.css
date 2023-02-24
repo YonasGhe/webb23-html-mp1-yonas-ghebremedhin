@@ -1,0 +1,155 @@
+body{
+    width: 100%;
+    position: relative;
+}
+
+header{
+    width: 100%;
+    background-color: blueviolet;
+    padding-top: 100px;
+    margin: auto;
+    font-size: larger;
+    text-align: center;
+    transform: translateY(-100px);
+}
+.nav {
+    padding: 10px;
+    margin: 20px;
+    
+}
+h1{
+    color: white;
+    margin: 5px;
+    padding: 5px;
+}
+h2{
+    color:aqua;
+    margin: 20px;
+    padding: 10px;
+}
+h3{
+    color:blue;
+    margin: 10px;
+    padding: 20px;
+}
+h4{
+    color: darkorchid;
+    margin: 25px;  
+    font-size: large;                                                                                                                                               
+}
+nav a{ 
+    font: medium;
+    margin: 20px;
+    padding:10px;
+    color: white;
+}
+nav a:hover{
+    background-color: black;
+
+}
+li{
+font-size: large;
+margin: 1rem;
+
+}
+li a{
+    color: hotpink;
+    margin: 10px;
+}
+li a:hover{
+    background-color: blue;
+}
+img{
+    float: right;
+    width: 40%;
+    height: 400px;
+    margin: 10px;
+    padding: 0%;
+}
+ div p{
+    background-color:aqua;
+    
+}
+.hobby {
+    position: static;
+    display: block; 
+}
+div{
+justify-content: space-between;
+}
+ div.hobby{
+    justify-content: space-between;
+  }
+.swim {
+    color: darkmagenta;
+    border: 1px solid black;
+    margin: 30px;
+    padding: 50px;
+    text-align: center;
+    background-color:aqua;
+    
+}
+.gym{
+    color: black;
+    border: 1px solid brown;
+    margin: 30px;
+    padding: 50px;
+    text-align: center;
+    background-color: lawngreen;
+}
+.volley-ball{
+    color: darkblue;
+    margin: 30px;
+    border: 1px solid black;
+    padding: 50px;
+    background-color: blueviolet;
+}
+form{
+    background-color: rgb(255, 127, 236);
+    margin: auto;
+    padding: 10px;
+    
+}
+input{
+    margin: 10px;
+}
+#name{
+    margin: 14px
+}
+#email{
+    margin: 13px;
+    padding-bottom: 15px;
+}
+#age{
+    margin: 3rem;
+}
+#male{
+    margin: 3rem;
+}
+#female{
+    margin: 3rem;
+}
+#none{
+    margin: 4rem;
+}
+
+footer{
+    margin: auto;
+    padding: 15px;
+    background-color: black;
+}
+span{
+    text-align: center;
+    color:whitesmoke;
+}
+span a{
+    color: blue;
+    margin: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+@media (max-width: 700px){
+    header{
+        text-align: center;
+        /*för att passa på kärmans layout*/
+    }
+}
