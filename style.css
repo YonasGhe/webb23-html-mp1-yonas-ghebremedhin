@@ -1,16 +1,15 @@
 body{
     width: 100%;
     position: relative;
+    background-color: darkgrey;
 }
-
 header{
     width: 100%;
-    background-color: blueviolet;
-    padding-top: 100px;
+    background-color: darkslateblue;
+    padding: 0%;
     margin: auto;
     font-size: larger;
     text-align: center;
-    transform: translateY(-100px);
 }
 .nav {
     padding: 10px;
@@ -19,11 +18,11 @@ header{
 }
 h1{
     color: white;
-    margin: 5px;
+    margin: auto;
     padding: 5px;
 }
 h2{
-    color:aqua;
+    color: blueviolet;
     margin: 20px;
     padding: 10px;
 }
@@ -33,7 +32,7 @@ h3{
     padding: 20px;
 }
 h4{
-    color: darkorchid;
+    color: rgba(7, 1, 11, 0.956);
     margin: 25px;  
     font-size: large;                                                                                                                                               
 }
@@ -42,6 +41,10 @@ nav a{
     margin: 20px;
     padding:10px;
     color: white;
+}
+q{
+    font-size: large;
+    margin: 20px;
 }
 nav a:hover{
     background-color: black;
@@ -53,12 +56,17 @@ margin: 1rem;
 
 }
 li a{
-    color: hotpink;
+    color: darkcyan;
     margin: 10px;
 }
 li a:hover{
-    background-color: blue;
+    background-color: darkorange;
 }
+article{
+    height: 100%;
+    background-color: 1px solid gray;
+}
+
 img{
     float: right;
     width: 40%;
@@ -66,9 +74,9 @@ img{
     margin: 10px;
     padding: 0%;
 }
- div p{
-    background-color:aqua;
-    
+
+div p{
+    background-color: darkslategray;
 }
 .hobby {
     position: static;
@@ -77,35 +85,34 @@ img{
 div{
 justify-content: space-between;
 }
- div.hobby{
-    justify-content: space-between;
-  }
+
 .swim {
-    color: darkmagenta;
+    color: wheat;
     border: 1px solid black;
     margin: 30px;
     padding: 50px;
     text-align: center;
-    background-color:aqua;
+    background-color:darkolivegreen
     
 }
 .gym{
-    color: black;
+    color: darkslateblue;
     border: 1px solid brown;
     margin: 30px;
     padding: 50px;
     text-align: center;
-    background-color: lawngreen;
+    background-color:azure;
 }
 .volley-ball{
-    color: darkblue;
+    color: black;
     margin: 30px;
     border: 1px solid black;
     padding: 50px;
-    background-color: blueviolet;
+    background-color: lightslategray;
 }
-form{
-    background-color: rgb(255, 127, 236);
+
+form{ 
+    background-color: darkkhaki;
     margin: auto;
     padding: 10px;
     
@@ -140,16 +147,17 @@ footer{
 }
 span{
     text-align: center;
-    color:whitesmoke;
+    color:white;
 }
 span a{
-    color: blue;
+    color: whitesmoke;
     margin: 30px;
     font-family: Arial, Helvetica, sans-serif;
 }
-@media (max-width: 700px){
-    header{
-        text-align: center;
-        /*för att passa på kärmans layout*/
-    }
+span p{
+    text-align: end;
 }
+span a:hover{
+    background-color: darkmagenta;
+}
+
