@@ -32,9 +32,9 @@ h3{
     padding: 20px;
 }
 h4{
-    color: rgba(7, 1, 11, 0.956);
-    margin: 25px;  
-    font-size: large;                                                                                                                                               
+    color: #123;
+    margin-left: 25px;
+    font-size: 25px;                                                                                                                                               
 }
 nav a{ 
     font: medium;
@@ -62,17 +62,20 @@ li a{
 li a:hover{
     background-color: darkorange;
 }
-article{
+.body{
+    text-align: center;
+    font-size: 18px;
+    margin: 1rem;
+    padding: 1rem;
     height: 100%;
-    background-color: 1px solid gray;
-}
 
+}
 img{
-    float: right;
+    float: left;
     width: 40%;
-    height: 400px;
+    height: 550px;
     margin: 10px;
-    padding: 0%;
+    border-radius: 10%;
 }
 
 div p{
@@ -115,12 +118,16 @@ justify-content: space-between;
     padding: 10px;
     color: black;
 }
-
-form{ 
-    background-color: darkkhaki;
-    margin: auto;
+.contact{
+    width: 75%;
     padding: 10px;
-    
+    margin: auto;
+    background-color: #789;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1.2);
+}
+
+.adress{ 
+    padding: 2rem;
 }
 input{
     margin: 10px;
@@ -169,4 +176,10 @@ span p{
 span a:hover{
     background-color: darkmagenta;
 }
-
+@media  (max-width: 600px) {
+    body{
+        width: 100%;
+        text-align: center;
+    }
+    
+}
