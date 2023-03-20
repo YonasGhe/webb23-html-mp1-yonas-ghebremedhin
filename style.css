@@ -155,7 +155,7 @@ select{
     margin: 10px;
     padding: 10px;
 }
-span img{
+.footer img{
     text-align: center;
     margin: auto;
     height: 25px;
