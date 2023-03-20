@@ -70,11 +70,11 @@ li a:hover{
     height: 100%;
 
 }
-img{
+article img{
     float: left;
-    width: 40%;
-    height: 550px;
-    margin: 10px;
+    width: 50%;
+    height: 540px;
+    margin: 2rem;
     border-radius: 10%;
 }
 
@@ -127,59 +127,73 @@ justify-content: space-between;
 }
 
 .adress{ 
-    padding: 2rem;
+    padding: 1rem;
 }
 input{
-    margin: 10px;
+    margin: auto;
 }
 #name{
-    margin: 14px
+    margin: 2rem;
 }
 #email{
-    margin: 13px;
-    padding-bottom: 15px;
+    margin: 2em;
+    
 }
 #age{
-    margin: 3rem;
+    margin: 2rem;
 }
 #male{
-    margin: 3rem;
+    margin: 1rem;
 }
 #female{
-    margin: 3rem;
+    margin: 5px;
 }
 #none{
-    margin: 4rem;
+    margin: 1rem;
 }
 select{
     margin: 10px;
     padding: 10px;
 }
-
+.footer img{
+    text-align: center;
+    margin: auto;
+    height: 25px;
+    width: 4%;
+}
 footer{
     margin: auto;
     padding: 15px;
-    background-color: black;
+    background-color: #234;
 }
 span{
-    text-align: center;
+    text-align: start;
     color:white;
 }
 span a{
     color: whitesmoke;
-    margin: 30px;
+    margin: 10px;
     font-family: Arial, Helvetica, sans-serif;
 }
-span p{
-    text-align: end;
+
+picture{
+    margin: 2rem;
+    padding: 1rem;
+    text-align: center;
+    color: aliceblue;
 }
-span a:hover{
-    background-color: darkmagenta;
+.solid img{
+    text-align: center;
+    margin: auto;
+    height: 25px;
+    width: 4%;
+}
+#copy-right{
+    text-align: end;
 }
 @media  (max-width: 600px) {
     body{
         width: 100%;
         text-align: center;
     }
-    
 }
